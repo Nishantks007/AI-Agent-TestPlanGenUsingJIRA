@@ -177,6 +177,3 @@ npm run dev
 -   **Architecture SOPs:** See `/architecture` for deep-dives into backend logic.
 -   **Project Memory:** `task_plan.md` and `progress.md` track the development journey.
 -   **Data Schemas:** Defined in `gemini.md`.
-
----
-*Created with ❤️ by the AI Tester Blueprint Team.*
