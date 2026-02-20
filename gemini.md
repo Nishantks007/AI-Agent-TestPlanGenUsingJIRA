@@ -55,3 +55,15 @@ Build a **Nexus Test Plan Generator**, a full-stack web application (React + Fas
 - **Storage:** SQLite (Settings/History) + File System (Templates).
 - **Layer 1:** Architecture (`architecture/`) - Technical SOPs.
 - **Layer 3:** Tools (`tools/`) - Deterministic Python scripts.
+
+## 5. Maintenance Log
+| Date | Milestone | Status | Details |
+| :--- | :--- | :--- | :--- |
+| 2026-02-14 | Initial Blueprint | ✅ | Defined Core Entities and B.L.A.S.T protocol. |
+| 2026-02-14 | Connectivity | ✅ | Linked JIRA (Atlassian), Groq, and Ollama. |
+| 2026-02-15 | Core Logic | ✅ | Implemented PDF parsing and LLM orchestration. |
+| 2026-02-20 | Premium Stylization | ✅ | Redefined UI with hierarchy, glassmorphism, and command palette. |
+| 2026-02-20 | Final Trigger | 🔄 | Documentation finalized, export logic initialized, and repo synced. |
+
+---
+*Constitution Last Updated: 2026-02-20*

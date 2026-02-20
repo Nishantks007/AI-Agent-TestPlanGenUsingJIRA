@@ -20,5 +20,11 @@ export const useLLM = () => {
         }
     };
 
-    return { plan, loading, error, generate };
+    const reset = () => {
+        setPlan(null);
+        setLoading(false);
+        setError(null);
+    };
+
+    return { plan, loading, error, generate, reset };
 };

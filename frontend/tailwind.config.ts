@@ -1,5 +1,6 @@
 import { type Config } from "tailwindcss"
 import animate from "tailwindcss-animate"
+import typography from "@tailwindcss/typography"
 
 export default {
     darkMode: "class",
@@ -53,6 +54,22 @@ export default {
                     DEFAULT: "hsl(var(--card))",
                     foreground: "hsl(var(--card-foreground))",
                 },
+                // Premium Design Extensions
+                slate: {
+                    950: '#020617',
+                    900: '#0f172a',
+                    800: '#1e293b',
+                    700: '#334155',
+                },
+                indigo: {
+                    500: '#6366f1',
+                    400: '#818cf8',
+                    600: '#4f46e5',
+                },
+                violet: {
+                    500: '#8b5cf6',
+                    600: '#7c3aed',
+                }
             },
             borderRadius: {
                 lg: "var(--radius)",
@@ -68,12 +85,29 @@ export default {
                     from: { height: "var(--radix-accordion-content-height)" },
                     to: { height: "0" },
                 },
+                "pulse-subtle": {
+                    "0%, 100%": { opacity: "1" },
+                    "50%": { opacity: "0.6" },
+                },
+                "glow": {
+                    "0%, 100%": { boxShadow: "0 0 20px 0 rgba(99, 102, 241, 0.2)" },
+                    "50%": { boxShadow: "0 0 30px 5px rgba(99, 102, 241, 0.4)" },
+                },
+                "shimmer": {
+                    "100%": { transform: "translateX(100%)" },
+                },
             },
             animation: {
                 "accordion-down": "accordion-down 0.2s ease-out",
                 "accordion-up": "accordion-up 0.2s ease-out",
+                "pulse-subtle": "pulse-subtle 2s infinite ease-in-out",
+                "glow": "glow 3s infinite ease-in-out",
+                "shimmer": "shimmer 2s infinite",
             },
+            backgroundImage: {
+                "glass-gradient": "linear-gradient(rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0))",
+            }
         },
     },
-    plugins: [animate],
+    plugins: [animate, typography],
 } satisfies Config

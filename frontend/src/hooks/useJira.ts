@@ -20,5 +20,11 @@ export const useJira = () => {
         }
     };
 
-    return { ticket, loading, error, getTicket };
+    const reset = () => {
+        setTicket(null);
+        setLoading(false);
+        setError(null);
+    };
+
+    return { ticket, loading, error, getTicket, reset };
 };

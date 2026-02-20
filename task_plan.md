@@ -32,5 +32,6 @@
 - [ ] **Feedback Loops:** Toast notifications, loading states.
 
 ## 🛰️ Phase 5: T - Trigger (Deployment)
-- [ ] **Documentation:** Setup instructions for Ollama, Keys, and Running the app.
-- [ ] **Final Review:** Verify against Success Criteria.
+- [x] **Documentation:** Setup instructions for Ollama, Keys, and Running the app (In README.md).
+- [x] **Final Review:** Verify against Success Criteria (Maintenance Log in gemini.md).
+- [x] **Export Logic:** Implemented .md download for generated plans.

@@ -1,6 +1,6 @@
-# 🚀 Nexus Test Plan Generator
+# 🚀 Nexus: Enterprise AI QA
 
-**Nexus Test Plan Generator** is a premium, AI-driven orchestration engine designed to transform JIRA requirements into professional, structured test plans. Built on the **B.L.A.S.T.** (Blueprint, Link, Architect, Stylize, Trigger) protocol, it ensures deterministic outcomes by combining the reasoning power of LLMs with structured business logic.
+**Nexus** is a premium, enterprise-grade AI orchestration engine designed to transform JIRA requirements into professional, structured test plans. Built on the **B.L.A.S.T.** protocol, it delivers high-fidelity QA intelligence through a sophisticated, modern workspace.
 
 ---
 
@@ -11,32 +11,37 @@ The core mission of Nexus is to eliminate the manual overhead of test case creat
 
 ## 🖥️ Dashboard UI
 
-The Nexus interface is designed for high-velocity QA workflows, featuring a clean, three-column logic:
+The Nexus interface is designed for high-velocity QA workflows, featuring a premium 3-layer visual hierarchy:
 
 ![Nexus Dashboard UI](https://github.com/user-attachments/assets/ae2de65b-6f81-4b16-8c46-887349970929)
-*Typical view with a loaded JIRA ticket and a custom PDF template active.*
+*The premium workspace featuring glassmorphic components and AI intelligence.*
 
 ### Interface Components:
-1.  **🎛️ Control Sidebar (Left):**
-    -   **JIRA Lookup:** Enter any Ticket ID to fetch real-time requirements.
-    -   **PDF Upload:** Drag-and-drop your company's test plan template.
-    -   **Provider Toggle:** Switch between Cloud (Groq) and Local (Ollama) inference on the fly.
-2.  **📋 Ticket Context (Center):**
-    -   Displays summary, priority, and the full JIRA description for verification before generation.
-3.  **📝 Generation Panel (Right):**
-    -   Live markdown renderer showing the AI-generated test objectives, scope, and detailed test cases.
+1.  **🎛️ Intelligent Sidebar (Glassmorphic):**
+    -   **JIRA Deep-Sync:** Fetch ticket data with one click.
+    -   **PDF Style Engine:** Upload reference templates to teach the AI your documentation style.
+    -   **Engine Toggle:** Switch between Cloud (Groq) and Local (Ollama) inference.
+    -   **🧹 Clear Workspace:** Instantly reset the environment for a new testing cycle.
+2.  **📋 Requirement Surface (Center):**
+    -   Detailed analysis of the JIRA context including Priority, Status, and full description.
+3.  **🤖 Intelligence Workbench (Right):**
+    -   **Generation Stepper:** Real-time visibility into the AI's processing stages.
+    -   **Confidence Score:** Visual index of generation accuracy based on input quality.
+    -   **Export Actions:** One-click **Markdown Export** and **Copy to Clipboard**.
+4.  **⌨️ Command Palette:**
+    -   Press `⌘ + K` (or `Ctrl + K`) to trigger a global command center for quick navigation and switching.
 
 ---
 
 ## 🧩 Key Features
 
--   **🔍 JIRA Deep-Sync:** Directly fetches ticket metadata (Summary, Description, Priority, Status) to build a rich context model.
--   **📄 Template-Driven Generation:** Upload a PDF test plan; Nexus uses **PyMuPDF** to extract the structure, ensuring the AI "writes like you do."
--   **🤖 Dual-Engine AI:** 
-    -   **Groq (Cloud):** High-speed generation using Llama-3-70B for complex tickets.
-    -   **Ollama (Local):** 100% private, offline generation for sensitive data.
--   **⚡ Live Streaming Preview:** Watch as the AI builds your test plan scenario by scenario.
--   **🎨 Modern QA Interface:** A sleek, glassmorphic dashboard built with Tailwind CSS and Lucide React.
+-   **🔍 JIRA Deep-Sync:** Atomic fetching of ticket metadata to build high-fidelity context.
+-   **📄 Template-Driven Learning:** Dynamically extracts structure from PDFs using **PyMuPDF**.
+-   **🤖 Dual-Engine Orchestration:** Seamlessly toggle between Cloud speed (Groq) and Local privacy (Ollama).
+-   **⌨️ Command Palette:** Global `⌘ + K` interface for tool-switching and search.
+-   **📊 QA Confidence Matrix:** Real-time scoring and source citation for AI-generated output.
+-   **🎨 Premium Motion Design:** Fluid animations, glassmorphism, and depth hierarchy for an elite user experience.
+-   **📥 Direct Export:** Professional Markdown export for immediate JIRA/Confluence integration.
 
 ---
 

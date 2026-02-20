@@ -21,5 +21,12 @@ export const useTemplates = () => {
         }
     };
 
-    return { templateContent, filename, loading, error, upload };
+    const reset = () => {
+        setTemplateContent(null);
+        setFilename(null);
+        setLoading(false);
+        setError(null);
+    };
+
+    return { templateContent, filename, loading, error, upload, reset };
 };
